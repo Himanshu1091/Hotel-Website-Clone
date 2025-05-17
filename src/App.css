@@ -13,6 +13,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* height of your navbar */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +41,88 @@
     transform: rotate(360deg);
   }
 }
+/*  */
+/*  */
+
+/* .Contact{
+  background-color: rgb(155, 242, 242);
+} */
+.Footer{
+  background-color: rgb(255, 246, 234);
+}
+
+.Footer-title{
+  font-size: 15px;
+}
+
+.Footer-item a{
+  color: rgb(80, 80, 80);
+  font-size: small;
+}
+
+.Footer-item a:hover{
+  text-decoration: underline;
+  color: rgb(255, 166, 0);
+}
+
+.navbar-horizontal {
+  display: flex;
+}
+
+.nav-item {
+  list-style: none; 
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.last {
+  margin: 0 8px;
+}
+
+.nav-link a {
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  text-decoration: underline;
+}
+/*  */
+
+/* .Login-body{
+  background-color: #1dc5f4;
+  height: 663px;
+}
+
+.Login-contant-body{
+  background-color: #8ae0f8;
+  width: 600px;
+  margin-left: 33.33%;
+} */
+
+.APP{
+  width: 28%;
+  margin-left: 32%;
+  margin-top: 50px;
+  background-color: #282c34;
+
+}
+
+.search{
+  width: 97%;
+  margin-left: 5px;
+}
+
+.small-poster {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.info-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
